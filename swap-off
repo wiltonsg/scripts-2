@@ -1,0 +1,3 @@
+sudo swapoff /media/restinga/SD/swapfile
+clear
+echo “Swap desligada”

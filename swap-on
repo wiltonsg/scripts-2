@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo swapon /media/restinga/SD/swapfile
+clear
+echo “Swap ligada”

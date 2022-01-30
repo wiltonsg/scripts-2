@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Limpando o cache do Luakit"
+
+rm -rf ~/.cache/luakit/*
+rm -rf ~/.local/share/luakit/indexeddb/v1/*
+rm -rf ~/.local/share/luakit/local_storage/*
+
+echo "Limpeza completa!"

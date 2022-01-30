@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo "Atualizando o AdBlock do Luakit"
+
+curl https://easylist.to/easylist/easylist.txt > ~/.local/share/luakit/adblock/easylist.txt
+curl https://easylist.to/easylist/easyprivacy.txt > ~/.local/share/luakit/adblock/easyprivacy.txt
+curl https://secure.fanboy.co.nz/fanboy-cookiemonster.txt > ~/.local/share/luakit/adblock/fanboy-cookiemonster.txt 
+curl https://easylist.to/easylist/fanboy-social.txt > ~/.local/share/luakit/adblock/fanboy-social.txt
+curl https://secure.fanboy.co.nz/fanboy-annoyance.txt > ~/.local/share/luakit/adblock/fanboy-annoyance.txt
+
+echo "Lista AdBlock  do Luakit atualizada com sucesso!"

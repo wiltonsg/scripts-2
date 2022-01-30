@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo “Limpando a Swap…”
+sudo swapoff -a
+sudo swapon /media/restinga/SD/swapfile
+clear
+echo “Limpeza da Swap efetuada com sucesso”
