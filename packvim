@@ -14,7 +14,7 @@ git clone https://github.com/rafi/awesome-vim-colorschemes.git ~/.vim/pack/plugi
 
 git clone https://github.com/lilydjwg/colorizer.git ~/.vim/pack/plugin/start/colorizer
 
-git clone https://github.com/kien/ctrlp.vim.git ~/.vim/pack/plugin/start/ctrlp
+git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/pack/plugin/start/ctrlp
 
 git clone https://github.com/mattn/emmet-vim.git ~/.vim/pack/plugin/start/emmet-vim
 
