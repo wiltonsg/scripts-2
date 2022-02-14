@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 sudo swapon /media/restinga/SD/swapfile
 clear
